@@ -1,0 +1,45 @@
+## macOS
+{
+    "Type": "com.apple.configuration.app.settings",
+    "Identifier": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+    "PayloadScope": "User",
+    "Payload":{
+        "Privacy": {
+            "PermissionDefaults": {
+                "Bundle-ID {Designated-Requirement}": {
+                    "OrganizationJustification": "Because I said so!",
+                    "Accessibility": "None/Allow",
+                    "Bluetooth": "None/Allow",
+                    "Camera": "None/Allow",
+                    "Dictation": "None/Allow",
+                    "LocalNetwork": "None/Allow",
+                    "Location": "None/WhileUsing/Always",
+                    "Microphone": "None/Allow"
+                }
+            }
+        }
+    }
+}
+
+## iOS/iPadOS
+{
+    "Type": "com.apple.configuration.app.settings",
+    "Identifier": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+    "PayloadScope": "System",
+    "Payload":{
+        "Privacy": {
+            "PermissionDefaults": {
+                "Bundle-ID": {
+                    "OrganizationJustification": "Because I said so!",
+                    "Bluetooth": "None/Allow",
+                    "Camera": "None/Allow",
+                    "Dictation": "None/Allow",
+                    "LocalNetwork": "None/Allow",
+                    "Location": "None/WhileUsing/Always",
+                    "LocationAccuracy": "None/Approximate/Precise",
+                    "Microphone": "None/Allow"
+                }
+            }
+        }
+    }
+}

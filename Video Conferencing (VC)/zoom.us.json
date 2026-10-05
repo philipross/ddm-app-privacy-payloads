@@ -1,0 +1,22 @@
+## macOS
+{
+    "Type": "com.apple.configuration.app.settings",
+    "Identifier": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+    "PayloadScope": "User",
+    "Payload":{
+        "Privacy": {
+            "PermissionDefaults": {
+                "us.zoom.xos {identifier \"us.zoom.xos\" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = BJ4HAAB9B3}": {
+                    "OrganizationJustification": "Because I said so!",
+                    "Accessibility": "None/Allow",
+                    "Bluetooth": "None/Allow",
+                    "Camera": "None/Allow",
+                    "Dictation": "None/Allow",
+                    "LocalNetwork": "None/Allow",
+                    "Location": "None/WhileUsing/Always",
+                    "Microphone": "None/Allow"
+                }
+            }
+        }
+    }
+}
