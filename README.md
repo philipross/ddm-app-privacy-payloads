@@ -35,7 +35,7 @@ You'll need to ensure you update the following:
 🧑‍🔧 If you're interested on becoming a maintainer on the repo, shoot me a message on the <img src="https://a.slack-edge.com/9cc0056/marketing/img/nav/logo.svg" width=12> [MacAdmins Slack](https://macadmins.org/community/slack/)!
 
 
-## 🗃️ Documentation.
+## 🗃️ Documentation
 
  Apple's Developer docs for this feature can be found [here.](https://developer.apple.com/documentation/devicemanagement/appsettings)
 
